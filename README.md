@@ -1,6 +1,6 @@
 # Identicon
 
-**TODO: Add description**
+Generates a identicon from a string.
 
 ## Installation
 
