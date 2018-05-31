@@ -2,6 +2,16 @@
 
 Generates a identicon from a string.
 
+## How to use
+
+After installing Elixir, open your terminal and go to project and type:
+
+`iex -s mix`
+`Identicon.main("banana")`
+
+This will generate your identicon
+
+
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
