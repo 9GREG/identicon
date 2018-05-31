@@ -58,8 +58,8 @@ defmodule Identicon do
   end
 
   def draw_image(%Identicon.Image{color: color, pixel_map: pixel_map}) do
-    image = :edg.create(250, 250)
-    fill = :edg.color(color)
+    image = :egd.create(250, 250)
+    fill = :egd.color(color)
 
     Enum.each pixel_map, fn({start, stop}) -> 
       :egd.filledRectangle(image, start, stop, fill)
